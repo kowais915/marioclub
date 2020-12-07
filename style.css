@@ -172,6 +172,22 @@ nav li a:hover{
         }
         
 
+    }
+     nav {
+            max-width: 100%;
+            position: sticky;
+            top: 60px;
+            margin: 0 auto;
+        
+            
+            
+            
+        }
+    
+/* 
+        
+            
+        
         nav {
             max-width: 100%;
             position: sticky;
