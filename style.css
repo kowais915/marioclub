@@ -133,19 +133,4 @@ nav li a:hover{
     padding: 5px;
     border-radius: 2px;
 }
-@media screen and (max-width: 700px){
-<<<<<<< HEAD
-    .welcome h2{
-        font-size: 15px;
-    }
-    .welcome h2 span{
-        font-size: 15px;
-    }
 
-}
-=======
-    .welcome h2 span{
-        font-size: 20px;
-    }
-}
->>>>>>> d3e8d49667337bad0c7f21bf81c20b39c08b377f
