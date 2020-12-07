@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+header {
+text-align: center;
+background-color: red;
+padding: 10px;
+position: fixed;
+width: 100%;
+top: 0px;
+z-index: 1;
+margin: 0 auto;
+display: inline-block;
+
+
+}
+header h1{
+    border: white 2px solid;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+.banner img{
+    max-width:100%;
+    position: relative;
+
+    
+}
+.banner{
+    position: relative;
+    
+
+}
+.welcome h2{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    background-color: rgb(226, 187, 113);
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.welcome h2 span{
+    font-size: 60px;
+}
+nav {
+    width: 100%;
+    background-color: rgb(245, 222, 179);
+    position: sticky;
+    top: 110px;
+    margin: 0 auto;
+
+    
+    
+    
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px; 
+}
+nav li{
+    width: 20%;
+    display: inline-block;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    padding: 0 40px;
+    margin: 80px auto;
+    box-sizing: border-box;
+}
+main ul{
+    white-space: nowrap;
+
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+}
+.images li{
+    display: inline-block;
+    width : 40%;
+    margin: 20px 5%
+
+}
+.images li img{
+    max-width:100% ;
+}
+.join{
+    text-align: center;
+    background-color: rgb(212, 200, 200);
+    padding: 60px 20px ;
+}
+form input{
+    margin: 20px 0;
+    padding: 20px 20px;
+    border-radius: 2px;
+    border: 3px white solid;
+}
+article h2{
+    color: red;
+    font-size: 48px;
+    margin-bottom: 2.5px;
+}
+article p{
+    line-height: 2em;
+} 
+footer{
+    background-color: red;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Psudo classes */ 
+nav li a:hover{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
