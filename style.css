@@ -169,10 +169,22 @@ nav li a:hover{
         .banner img{
             max-width:100%;
             height: 250px;
+    }
+     nav {
+            max-width: 100%;
+            position: sticky;
+            top: 60px;
+            margin: 0 auto;
+        
+            
+            
+            
+        }
+    
 /* 
         
             
-        }
+        
         nav {
             max-width: 100%;
             position: sticky;
